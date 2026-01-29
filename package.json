@@ -1,0 +1,27 @@
+{
+  "name": "help.visuallyme.com",
+  "version": "0.0.1",
+  "description": "Documentation site for Visually Me",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudful-io/help.visuallyme.com.git"
+  },
+  "author": "Cloudful.io",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^16.1.6",
+    "nextra": "^4.6.1",
+    "nextra-theme-docs": "^4.6.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "pagefind": "^1.4.0"
+  }
+}
